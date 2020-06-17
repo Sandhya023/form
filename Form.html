@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Employee Information Form</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<form action="connect.php" method="post">
+<div class="wrapper">
+    <div class="title">
+      Employee Information Form
+    </div>
+    <div class="form">
+       <div class="inputfield">
+          <label for="firstName" >First Name</label>
+          <input 
+          type="text" 
+          class="input"
+          id="firstName"
+          name="firstName" 
+
+          >
+       </div>  
+        <div class="inputfield">
+          <label for="lastName">Last Name</label>
+          <input 
+          type="text" 
+          class="input"
+          id="lastName"
+          name="lastName" 
+
+          >
+       </div> 
+        <div class="inputfield">
+          <label for="email">Email Address</label>
+          <input 
+          type="text" 
+          id="email"
+          name="email" 
+
+          class="input">
+       </div>  
+       
+       
+                
+                <div class="inputfield">
+                  <label for="gender">Gender</label>
+                  <label for="male" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="m"
+                      id="male"
+                    />Male</label
+                  >
+                  <label for="female" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="f"
+                      id="female"
+                    />Female</label
+                  >
+                  <label for="others" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="o"
+                      id="others"
+                    />Others</label
+                  >
+                </div>
+                <div>
+          <label for="department">Department</label> 
+       <div class="inputfield">
+          <br />
+          <label for="account and finance" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="department"
+                      value="account and finance"
+                      id="account and finance"
+                    />Account and Finance</label
+                  >
+                   <label for="hr" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="department"
+                      value="hr"
+                      id="hr"
+                    />Human Resourse</label
+                  > <label for="sales and marketing" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="department"
+                      value="sales and marketing"
+                      id="sales and marketing"
+                    />Sales and Marketing</label
+                  > <label for="product development" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="department"
+                      value="product development"
+                      id="product development"
+                    />Product Development</label
+                  >
+
+         
+       </div>  
+
+          <label for="jobTitle">Job Title</label> 
+       <div class="inputfield">
+          
+          <label for="it manager" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="jobTitle"
+                      value="it manager"
+                      id="it manager"
+                    />IT Manager</label
+                  >
+                   <label for="cloud consultant" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="jobTitle"
+                      value="cloud consultant"
+                      id="cloud consultant"
+                    />Cloud Consultant</label
+                  > <label for="data analyst" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="jobTitle"
+                      value="data analyst"
+                      id="data analyst"
+                    />Data Analyst</label
+                  > <label for="software developer" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="jobTitle"
+                      value="software developer"
+                      id="software developer"
+                    />Software Developer</label
+                  >
+
+         
+       </div> 
+     </div>
+     <br />
+       <!--
+      <div class="inputfield">
+          <label for="jobTitle">Job Title</label>
+          <div class="custom_select">
+            <select>
+              <option>Select</option>
+              <option value="it manager" id="it manager">IT Manager</option>
+              <option value="it director" id="it director">IT Director</option>
+              <option value="cloud consultant" id="cloud consultant">Cloud Consultant</option>
+              <option value="data analyst" id="data analyst">Data Analyst</option>
+              <option value="software developer" id="software developer">Software Developer</option>
+              <option value="network administration" id="network administration">Network Administration</option>
+
+            </select>
+          </div>
+       </div>  -->
+       
+      <div class="inputfield">
+          <label for="phone">Phone Number</label>
+          <input 
+          type="text" 
+          class="input"
+          id="phone"
+          name="phone" 
+          >
+       </div> 
+      <div class="inputfield">
+          <label for="address">Address</label>
+          <textarea id="address" name="address" class="textarea"></textarea>
+       </div> 
+      <div class="inputfield">
+          <label for="code">Postal Code</label>
+          <input id="code" name="code" type="text" class="input">
+       </div> 
+      <div class="inputfield terms">
+          <label class="check">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+          <p>Agreed to terms and conditions</p>
+       </div> 
+      <div class="inputfield">
+        <input type="submit" value="Add Employee" class="btn">
+
+       
+      </div>
+    </div>
+</div>	
+	</form>
+
+</body>
+</html>
