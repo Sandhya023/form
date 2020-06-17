@@ -12,7 +12,7 @@ font-size: 25px;
 text-align: left;
 }
 th {
-background-color: #588c7e;
+background-color: purple;
 color: white;
 }
 tr:nth-child(even) {background-color: #f2f2f2}

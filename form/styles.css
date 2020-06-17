@@ -156,7 +156,7 @@ body{
   background:  #fec107;
   background-image: linear-gradient(to bottom right, #ff66cc, yellow);
   cursor: pointer;
-  border-radius: 3px;
+  border-radius: 10px;
   outline: none;
 }
 
@@ -180,9 +180,4 @@ body{
     flex-direction: row;
   }
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-}
+
